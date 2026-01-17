@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="imgs/public/logo LastStop Clinic.png"
+    />
+    <title>Last Stop Clinic</title>
+  </head>
+  <body>
+    <div id="layout-geral">
+      
+      <nav id="menu-lateral">
+        <div class="logo-area">
+            <img src="imgs/public/logo LastStop Clinic.png" alt="Logo" id="logo-menu" />
+        </div>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Horários e Serviços</a></li>
+          <li><a href="#">Especialistas</a></li>
+          <li><a href="#">VasecTop</a></li>
+        </ul>
+        <search id="busca">
+          <input type="text" placeholder="Pesquisar..." />
+          <button type="submit">Buscar</button>
+        </search>
+      </nav>
+
+      <div id="container-principal">
+        
+        <header id="cabecalho-topo">
+          <hgroup>
+            <h1>Last Stop Clinic</h1>
+            <h2>Sua clínica de Vasectomia preferida</h2>
+          </hgroup>
+        </header>
+
+        <main id="conteudo-principal">
+          
+          <section id="secao-contato">
+            <h3>Agende sua consulta</h3>
+            <form action="Entrar em contato" method="post" id="form-contato">
+              <div class="grupo-input">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Ex: Sam Taylor" />
+              </div>
+
+              <div class="grupo-input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="exemplo@mail.com" />
+              </div>
+
+              <div class="grupo-input">
+                <label for="numero">Telefone:</label>
+                <input type="tel" id="numero" name="numero" required placeholder="(12) 99999-9999" />
+              </div>
+
+              <div class="grupo-input">
+                <label for="servicos">Serviço de interesse:</label>
+                <select id="servicos" name="servicos" required>
+                  <option value="" disabled selected>Selecione uma opção</option>
+                  <option value="Consulta de Avaliação">Consulta de Avaliação</option>
+                  <option value="Vasectomia Convencional">Vasectomia Convencional</option>
+                  <option value="Vasectomia Sem Bisturi">Vasectomia Sem Bisturi</option>
+                  <option value="Reversão">Reversão de Vasectomia</option>
+                </select>
+              </div>
+
+              <input type="submit" value="Enviar Agendamento" id="btn-enviar" />
+            </form>
+          </section>
+
+          <section id="secao-info">
+            <div class="destaque-info">
+                <img src="imgs/public/Convite Lost Stop.png" alt="Fachada" id="img-fachada" />
+                <p>
+                Nossa Clínica é especializada em todo o processo de vasectomia e
+                reversão. Assistimos durante todo o processo afim de promover a
+                segurança e bem-estar dos nossos pacientes.
+                </p>
+            </div>
+
+            <table id="tabela-horarios">
+              <thead>
+                <tr>
+                  <th>Serviços</th>
+                  <th>Dias</th>
+                  <th>Horário</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Consulta de Avaliação</td>
+                  <td>Segunda a Sexta</td>
+                  <td>08:00 - 18:00</td>
+                </tr>
+                <tr>
+                  <td>Vasectomia Convencional</td>
+                  <td>Segunda, Quarta e Sexta</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Vasectomia Sem Bisturi</td>
+                  <td>Terça e Quinta</td>
+                  <td>10:00 - 16:00</td>
+                </tr>
+                <tr>
+                  <td>Consultas de Revisão</td>
+                  <td>Segunda a Sexta</td>
+                  <td>08:00 - 18:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+
+        <footer id="rodape">
+          <div class="mapa">
+             <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.34!2d-38.5!3d-3.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNDInMDAuMCJTIDM4wrAzMCcwMC4wIlc!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr"
+            width="100%" height="200" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="contatos">
+            <p><strong>Endereço:</strong> 360 R. Pontamar, Ceará</p>
+            <p><strong>Telefone:</strong> (85) 1234-5678</p>
+            <p><strong>Email:</strong> contato@laststopclinic.com.br</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
