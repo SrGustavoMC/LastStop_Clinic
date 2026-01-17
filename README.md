@@ -34,7 +34,7 @@ Se quiser testar na sua máquina:
 
 Desenvolvido por **Gustavo Matos Costa**.
 
-* LinkedIn: [Gustavo Matos Costa](www.linkedin.com/in/gustavo-matos-costa)
+* LinkedIn: [Gustavo Matos Costa](https://www.linkedin.com/in/gustavo-matos-costa/)
 * GitHub: [SrGustavoMC](https://github.com/SrGustavoMC)
 
 ---
